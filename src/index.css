@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-indigo {
+  @apply px-3 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-700;
+}
+.btn-green {
+  @apply px-3 py-1 bg-green-600 text-white rounded hover:bg-green-700;
+}
+.input {
+  @apply p-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800;
+}
